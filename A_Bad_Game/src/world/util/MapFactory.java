@@ -41,13 +41,17 @@ public class MapFactory {
         return basic;
     }
     
-    private void CA_ModifyTile(int x, int y){
+    private void CA_ModifyTile(Map m, int x, int y){
         int open = 5;
         int close = 2;
         
+        int openNeighbors = 0;
+        
         for(int xi = Math.max(1, x-1); xi<Math.min(x-1, x+1); xi++){
             for(int yi = Math.max(1, y-1); yi<Math.min(y-1, y+1); yi++){
-                
+                if(m.getTile(xi, yi).type == TileType.FLOOR){
+                    //TODO: Stuff.
+                }
             }
         }
         
