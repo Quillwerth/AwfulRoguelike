@@ -8,6 +8,6 @@ package world;
  *
  * @author Patrick
  */
-class MapObject {
-    
+public enum TileType {
+    FLOOR, WALL
 }
