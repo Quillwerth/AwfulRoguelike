@@ -13,6 +13,7 @@ import java.util.List;
  * @author Patrick
  */
 public class Tile {
+<<<<<<< HEAD
     private List<MapObject> contents;
     
     public TileType type;
@@ -44,5 +45,11 @@ public class Tile {
      */
     private void enter(MapObject thing){
         contents.add(thing);
+=======
+   // List<MapObject> contents;
+    
+    public Tile(){
+    //    contents = new ArrayList<MapObject>();
+>>>>>>> e48b53a9bcc130062746544f0df9c4f9660bba1d
     }
 }
