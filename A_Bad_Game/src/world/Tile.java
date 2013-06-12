@@ -9,9 +9,9 @@ package world;
  * @author Patrick
  */
 public class Tile {
-    List<MapObject> contents;
+   // List<MapObject> contents;
     
     public Tile(){
-        contents = new ArrayList<MapObject>();
+    //    contents = new ArrayList<MapObject>();
     }
 }
